@@ -1,8 +1,10 @@
 Description
 ===========
 
-Allow generating avatar picture from ruby.
+Allow generating avatar pictures from ruby.
 
+The supported avatar type are: `cat`, `bird`, `abstract`, `mobilizon`,
+`8bit-female` and `8bit-male`.
 
 
 Examples
@@ -11,8 +13,12 @@ Examples
 ~~~ruby
 require 'face-no-more'
 
-FaceNoMore.generate(:cat, "foo@example.com", format: :jpg, size: 256)
-FaceNoMore.generate(:bird, 12345678910)
+# Number of possible avatars
+count = FaceNoMore.possibilities(:mobilizon)
+
+# Generate avatar picture
+jpg = FaceNoMore.generate(:cat, "foo@example.com", format: :jpg, size: 256)
+png = FaceNoMore.generate(:bird, 12345678910)
 ~~~
 
 
@@ -21,7 +27,7 @@ Artworks
 ========
 * `cat`, `bird`, `abstract` and `mobilizon` are from [David Revoy][2]
   licensed under [CC-By 4.0][4]
-* `8bit-female` and `8bit-male`are from [matveyco][3]
+* `8bit-female` and `8bit-male` are from [matveyco][3]
 
 
 
