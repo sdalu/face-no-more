@@ -6,7 +6,11 @@ Gem::Specification.new do |s|
     s.name        = 'face-no-more'
     s.version     = FaceNoMore::VERSION
     s.summary     = "Generate avatars"
-    s.description = "Convert SSH public key from/to RFC4716/OpenSSH format"
+    s.description =  <<~EOF
+      Generate avatars from artwork assets.
+      Included 5 different types of artwork: cat, bird, abstract, mobilizon, and 8bit.
+      EOF
+
     s.homepage    = 'https://gitlab.com/sdalu/face-no-more'
     s.license     = 'MIT'
 
