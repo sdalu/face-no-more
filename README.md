@@ -6,6 +6,13 @@ Allow generating avatar pictures from ruby.
 The supported avatar type are: `cat`, `bird`, `abstract`, `mobilizon`,
 `8bit-female` and `8bit-male`.
 
+![Cat](https://raw.githubusercontent.com/sdalu/face-no-more/main/img/cat.png "Cat")
+![Bird](https://raw.githubusercontent.com/sdalu/face-no-more/main/img/bird.png "Bird")
+![Abstract](https://raw.githubusercontent.com/sdalu/face-no-more/main/img/abstract.png "Abstract")
+![Mobilizon](https://raw.githubusercontent.com/sdalu/face-no-more/main/img/mobilizon.png "Mobilizon")
+![8bit female](https://raw.githubusercontent.com/sdalu/face-no-more/main/img/8bit-female.png "8bit female")
+![8bit male](https://raw.githubusercontent.com/sdalu/face-no-more/main/img/8bit-male.png "8bit male")
+
 
 Examples
 ========
